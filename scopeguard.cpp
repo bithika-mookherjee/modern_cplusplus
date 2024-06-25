@@ -59,7 +59,7 @@ int main()
 	return 0;
 }
 
-
+//////////////////////////////////////////////////////////////////////////////////////
 // error: cannot bind non-const lvalue reference of type 'std::string&' {aka 'std::__cxx11::basic_string<char>&'} to an rvalue of type 'std::string' {aka 'std::__cxx11::basic_string<char>'}
 
 // 48 |         pDB_->AddFriend(GetName(), newFriend);
